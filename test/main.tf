@@ -1,9 +1,3 @@
-# terraform-aws-vpc
-
-```hcl
-
-Create apache.sh file and input packages to be installed
-
 module "vpc" {
     source = "kaizenacademy/vpc/aws"
     version = "0.0.2"
@@ -17,4 +11,3 @@ module "vpc" {
     key_name = "kaizen"
     type = true
 }
-```
